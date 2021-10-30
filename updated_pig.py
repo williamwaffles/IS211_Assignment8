@@ -86,9 +86,6 @@ class Die:
         self.face = int(random.random() * self.sides + 1)
 
 
-
-
-
 if __name__ == "__main__":
     print('Welcome to Pig!')
     game = Pig()
